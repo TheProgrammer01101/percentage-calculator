@@ -1,0 +1,32 @@
+body {
+  background-color: #1b1b1b;
+  margin: 2rem;
+}
+
+.grid-inputs {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3vw;
+}
+
+.grid-inputs input,label {
+  text-align: center;
+  font-size: 3vw;
+}
+
+.grid-inputs input[type='button'] {
+  transform: translateX(50%);
+  background-color: #777777;
+  color: #fff;
+  border: none;
+  padding: 1vw;
+  cursor: pointer;
+}
+
+label[for='result'] {
+  color: #fff;
+  font-size: 3vw;
+  position: absolute;
+  bottom: 1rem;
+  left: 1rem;
+}
