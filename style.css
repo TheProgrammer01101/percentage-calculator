@@ -6,12 +6,12 @@ body {
 .grid-inputs {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 3vw;
+  gap: 3rem;
 }
 
 .grid-inputs input,label {
   text-align: center;
-  font-size: 3vw;
+  font-size: 3rem;
 }
 
 .grid-inputs input[type='button'] {
@@ -19,13 +19,15 @@ body {
   background-color: #777777;
   color: #fff;
   border: none;
-  padding: 1vw;
+  padding: 1rem;
   cursor: pointer;
 }
 
-label[for='result'] {
-  color: #fff;
-  font-size: 3vw;
+label#result {
+  color: #333;
+  background-color: yellow;
+  font-size: 3rem;
+  padding: 0 1rem;
   position: absolute;
   bottom: 1rem;
   left: 1rem;
